@@ -85,6 +85,21 @@ html {
   .navbar-nav .nav-link {
     padding: 0.5rem 1rem;
   }
+
+  .sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 0;
+}
+
+.sidebar .nav-link {
+    padding: 8px;
+}
+
+.btn {
+    margin: 10px;
+}
 }
 
 .page-dashboard .sidebar {

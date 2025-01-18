@@ -36,11 +36,17 @@
         </div>
     </nav>
 
+    <!-- Botón para mostrar/ocultar la barra lateral en dispositivos móviles -->
+    <button class="btn btn-success d-md-none" type="button" data-toggle="collapse" data-target="#sidebar"
+        aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
+        Menú
+    </button>
+
     <!-- Página de contenido -->
     <div class="container-fluid page-dashboard bg-white">
         <div class="row">
             <!-- Barra lateral -->
-            <div class="col-2 sidebar bg-success d-flex flex-column align-items-center p-3">
+            <div class="col-md-2 collapse d-md-block bg-success p-3" id="sidebar">
                 <ul class="nav flex-column">
                     <li class="nav-item">
                         <a class="nav-link text-white text-center" href="#anteproyecto">Anteproyecto</a>
