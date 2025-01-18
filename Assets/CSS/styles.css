@@ -8,6 +8,20 @@
 body {
     font-family: 'Arial', sans-serif;
     background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
 .sidebar {
@@ -141,33 +155,9 @@ body {
 
 /* Media Queries para dispositivos móviles */
 @media (max-width: 768px) {
-    .sidebar {
-        height: auto;
-        padding: 10px;
-    }
-
-    .sidebar ul li a {
-        padding: 8px;
-    }
-
-    .container-content {
-        padding: 10px;
-    }
-
-    .navbar-brand img {
-        width: 80px;
-    }
-
-    .btn {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-    .table-responsive {
-        margin-top: 10px;
-    }
-
-    .modal-content {
-        padding: 10px;
+    .accordion {
+        height: 80vh;
+        overflow-y: auto; /* Permite el desplazamiento si el contenido es mayor que la altura */
     }
 }
+

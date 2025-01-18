@@ -65,38 +65,52 @@ html {
 }
 
 /* Ajustes para pantallas pequeñas */
+/* Ajustes para la navbar en dispositivos móviles */
 @media (max-width: 768px) {
   .navbar-brand img {
-      width: 80px;
+    width: 80px;
   }
 
-  #welcome-message {
-      height: auto;
-      padding: 20px;
-  }
-
-  .page-dashboard .sidebar {
-    position: relative;
+  .navbar-nav {
+    flex-direction: row;
+    justify-content: center;
     width: 100%;
-    height: auto;
-    top: 0;
   }
 
-  .page-dashboard .content {
-    margin-left: 0;
-    /* Eliminar margen izquierdo */
-    width: 100%;
-    /* El contenido ocupa todo el ancho */
-    padding: 10px;
+  .navbar-nav .nav-item {
+    flex: 1;
+    text-align: center;
   }
 
-  .sidebar .nav-link {
-    padding: 8px;
+  .navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
   }
+}
+
+.page-dashboard .sidebar {
+  position: relative;
+  width: 100%;
+  height: auto;
+  top: 0;
+}
+
+.page-dashboard .content {
+  margin-left: 0;
+  /* Eliminar margen izquierdo */
+  width: 100%;
+  /* El contenido ocupa todo el ancho */
+  padding: 10px;
+}
+
+.sidebar .nav-link {
+  padding: 8px;
+}
 }
 
 /* Cambiar color al pasar el cursor */
 .custom-modal-trigger:hover {
-  color: blue !important; /* Cambiar el color del texto e ícono a azul */
-  text-decoration: none; /* Evitar subrayado */
+  color: blue !important;
+  /* Cambiar el color del texto e ícono a azul */
+  text-decoration: none;
+  /* Evitar subrayado */
 }

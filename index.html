@@ -13,21 +13,20 @@
 
 <body class="d-flex flex-column min-vh-100">
     <!-- Navbar -->
-    <nav class="navbar navbar-white bg-white">
-        <a class="navbar-brand mx-5" href="">
-            <img src="Assets/IMG/TESCO.webp" alt="Logo" style="width: 120px;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand mx-3" href="">
+            <img src="Assets/IMG/TESCO.webp" alt="Logo" class="img-fluid" style="width: 120px;">
         </a>
-        <a class="btn btn-success ml-auto" href="Views/Student/dashboardStudent.html"
-            role="button">Acceder</a>
+        <a class="btn btn-success ml-auto" href="Views/Student/dashboardStudent.html" role="button">Acceder</a>
     </nav>
 
 
     <!-- Main Content -->
-    <div class="container mt-1 flex-grow-1 container-content">
+    <main role="main" class="container bg-white p-2 mx-auto my-1">
         <h1 class="text-center">TRÁMITES</h1>
 
         <!-- Tramites Section -->
-        <div class="accordion mt-3" id="tramitesAccordion">
+        <div class="accordion mt-3 text-decoration-none collapsed btn-link" id="tramitesAccordion">
             <div class="card">
                 <div class="card-header" id="headingOne">
                     <h2 class="mb-0 text-center">
@@ -326,13 +325,14 @@
                 </div>
             </div>
         </div>
-    </div>
+    </main>
+
 
     <!-- Footer -->
-    <footer class="footer py-1 bg-success">
-        <div class="container text-center text-light my-3">
+    <footer class="footer py-3 text-light bg-success">
+        <div class="container text-center my-3">
             <p>&copy;
-                <?php echo date("Y"); ?> Tecnologico de Estudios Superiores de Coacalco.
+                Tecnologico de Estudios Superiores de Coacalco.
             </p>
         </div>
     </footer>
