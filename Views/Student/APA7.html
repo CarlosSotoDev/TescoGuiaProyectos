@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APA 7</title>
+    <link rel="icon" type="image/png" href="/Assets/IMG/TESCO_TRANSPARENTE.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../../Assets/CSS/docs.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+        <a class="navbar-brand mx-5" href="../../index.html">
+            <img src="../../Assets/IMG/TESCO_TRANSPARENTE.webp" alt="Logo" style="width: 120px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Documentación
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="APA7.html">APA 7</a>
+                        <a class="dropdown-item" href="Anteproyecto.html">Anteproyecto</a>
+                        <a class="dropdown-item" href="Documentacion.html">Documentación Proyecto</a>
+                    </div>
+                </li>
+            </ul>
+
+
+        </div>
+    </nav>
+
+
+
+    <!-- Página de contenido -->
+    <div class="container-fluid page-dashboard bg-white">
+        <div class="row">
+            <!-- Barra lateral -->
+            <div class="col-2 sidebar bg-success d-flex flex-column align-items-center p-3">
+                <!-- Aquí va el contenido de la barra lateral -->
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link text-white text-center" href="#pagina">Formato de pagina</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white text-center" href="#titulo">Titulos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white text-center" href="#subtitulo">Subtitulos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white text-center" href="#parrafos">Parrafos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white text-center" href="#viñetas">Viñetas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white text-center" href="#tablas">Tablas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white text-center" href="#imgFig">Imagenes y Figuras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white text-center" href="#referencias">Referencias</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Contenido principal -->
+            <div class="col-sm-10 content bg-white p-5 my-5 text-justify">
+                <h1 id="anteproyecto">CITADO APA 7° EDICION</h1>
+                <p>El anteproyecto es el primer documento que se te solicitará cuando ya estes registrado en Residencias
+                    profesionales aqui te eneseñamos como se debe de construir los apartados principales de este
+                    documento
+
+                </p>
+
+                <div class="container mt-5">
+                    <!-- Formato de Hoja -->
+                    <div class="card mb-4" id="pagina">
+                        <div class="card-header bg-success text-white ">
+                            <h2 class="card-title">Formato APA - Página</h2>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="font-weight-bold">Características de la página según APA 7.ª edición:</h5>
+                            <ul>
+                                <li><strong>Tamaño de la hoja:</strong> Carta (8.5 x 11 pulgadas).</li>
+                                <li><strong>Márgenes:</strong> 1 pulgada (2.54 cm) en todos los lados (superior,
+                                    inferior, izquierdo y derecho).</li>
+                                <li><strong>Fuente:</strong> Arial, Times New Roman, (Consulte con su asesor asignado
+                                    para la fuente requerida, aunque "Arial" es la más común).</li>
+                                <li><strong>Interlineado:</strong> Doble espacio en todo el documento.</li>
+                                <li><strong>Sangría:</strong> Primera línea de cada párrafo con sangría de 0.5 pulgadas
+                                    (1.27 cm).</li>
+                                <li><strong>Alineación del texto:</strong> Alineado a la izquierda (no justificar el
+                                    texto).</li>
+                                <li><strong>Número de página:</strong> En la esquina superior derecha de cada página,
+                                    comenzando desde la página del título.</li>
+                            </ul>
+
+                            <!-- Trigger para abrir el modal -->
+                            <div class="d-flex justify-content-end align-items-center mt-4">
+                                <a href="#" class="d-flex align-items-center custom-modal-trigger text-dark"
+                                    data-toggle="modal" data-target="#modalFormatoPagina" style="cursor: pointer;">
+                                    <span class="mr-2">Visualización</span>
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="modalFormatoPagina" tabindex="-1" role="dialog"
+                                aria-labelledby="modalTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitle">Vista previa</h5>
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Cerrar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body text-center">
+                                            <img src="../../Assets/IMG/Documentacion/APA7/MEDIDAS-HOJAS-Y-MARGEN.webp"
+                                                alt="Vista previa" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Título -->
+                    <div class="card mb-4">
+                        <div class="card-header bg-success text-white">
+                            <h2 class="card-title" id="titulo">Formato APA - Título</h2>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="font-weight-bold">Características del título según APA 7.ª edición:</h5>
+                            <ul>
+                                <li><strong>Formato:</strong> Centrado, en negritas, con mayúscula en cada palabra
+                                    importante.</li>
+                                <li><strong>Tamaño de letra:</strong> 12 puntos.</li>
+                                <li><strong>Fuente:</strong> Arial, Times New Roman, (Esta la pueden consultar con su
+                                    asesor asignado para que los oriente con la fuente requerida, puede variar segun el
+                                    asesor, pero es mas usada la fuente "Arial")</li>
+                            </ul>
+
+                            <!-- Trigger para abrir el modal -->
+                            <div class="d-flex justify-content-end align-items-center mt-4">
+                                <a href="#" class="d-flex align-items-center custom-modal-trigger text-dark"
+                                    data-toggle="modal" data-target="#modalFormatoTitulo" style="cursor: pointer;">
+                                    <span class="mr-2">Visualización</span>
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="modalFormatoTitulo" tabindex="-1" role="dialog"
+                                aria-labelledby="modalTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitle">Vista previa</h5>
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Cerrar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body text-center">
+                                            <img src="../../Assets/IMG/Documentacion/APA7/TITULO.webp"
+                                                alt="Vista previa" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Subtitulos -->
+                    <div class="card mb-4">
+                        <div class="card-header bg-success text-white">
+                            <h2 class="card-title" id="subtitulos">Formato APA - Subtítulos</h2>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="font-weight-bold">Características de los subtítulos según APA 7.ª edición:</h5>
+                            <p>Usualmente son mas usados los primeros 3 niveles, de igual manera buscar asesoria para
+                                saber cuando usarlos segun las preferencias de la institucion</p>
+                            <ul>
+                                <li><strong>Formato del Nivel 1:</strong> Centrado, en negritas, con mayúscula en cada
+                                    palabra importante.</li>
+                                <li><strong>Formato del Nivel 2:</strong> Alineado a la izquierda, en negritas, con
+                                    mayúscula en cada palabra importante.</li>
+                                <li><strong>Formato del Nivel 3:</strong> Alineado a la izquierda, en negritas y
+                                    cursiva, con mayúscula en cada palabra importante.</li>
+                                <li><strong>Formato del Nivel 4:</strong> Sangría (0.5 pulgadas), en negritas, punto
+                                    final, solo la primera palabra en mayúscula.</li>
+                                <li><strong>Formato del Nivel 5:</strong> Sangría (0.5 pulgadas), en negritas y cursiva,
+                                    punto final, solo la primera palabra en mayúscula.</li>
+                                <li><strong>Tamaño de letra:</strong> 12 puntos.</li>
+                                <li><strong>Fuente:</strong> Arial, Times New Roman (Consulte con su asesor para la
+                                    fuente requerida, aunque "Arial" es la más común).</li>
+                            </ul>
+
+                            <!-- Trigger para abrir el modal -->
+                            <div class="d-flex justify-content-end align-items-center mt-4">
+                                <a href="#" class="d-flex align-items-center custom-modal-trigger text-dark"
+                                    data-toggle="modal" data-target="#modalFormatoSubtitulo" style="cursor: pointer;">
+                                    <span class="mr-2">Visualización</span>
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="modalFormatoSubtitulo" tabindex="-1" role="dialog"
+                                aria-labelledby="modalTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitle">Vista previa</h5>
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Cerrar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body text-center">
+                                            <img src="../../Assets/IMG/Documentacion/APA7/Subtitulos.webp"
+                                                alt="Vista previa" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Parrafo -->
+                    <div class="card mb-4">
+                        <div class="card-header bg-success text-white">
+                            <h2 class="card-title" id="parrafos">Formato APA - Párrafos</h2>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="font-weight-bold">Características de los párrafos según APA 7.ª edición:</h5>
+                            <ul>
+                                <li><strong>Formato:</strong> Alineado a la izquierda (TESCO pide los formatos
+                                    justificados).</li>
+                                <li><strong>Interlineado:</strong> Doble espacio (1.5 líneas en Word).</li>
+                                <li><strong>Sangría:</strong> Primera línea de cada párrafo con una sangría de 0.5
+                                    pulgadas (1.27 cm).</li>
+                                <li><strong>Espaciado:</strong> Sin espacio adicional antes o después de cada párrafo.(0
+                                    puntos al Inicio y 0 puntos al final)
+                                </li>
+                                <li><strong>Tamaño de letra:</strong> 12 puntos.</li>
+                                <li><strong>Fuente:</strong> Arial, Times New Roman (Consulte con su asesor para la
+                                    fuente requerida, aunque "Arial" es la más común).</li>
+                            </ul>
+
+                            <!-- Trigger para abrir el modal -->
+                            <div class="d-flex justify-content-end align-items-center mt-4">
+                                <a href="#" class="d-flex align-items-center custom-modal-trigger text-dark"
+                                    data-toggle="modal" data-target="#modalFormatoParrafo" style="cursor: pointer;">
+                                    <span class="mr-2">Visualización</span>
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="modalFormatoParrafo" tabindex="-1" role="dialog"
+                                aria-labelledby="modalTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitle">Vista previa</h5>
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Cerrar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body text-center">
+                                            <img src="../../Assets/IMG/Documentacion/APA7/Parrafo.webp"
+                                                alt="Vista previa" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Viñetas -->
+                    <div class="card mb-4">
+                        <div class="card-header bg-success text-white">
+                            <h2 class="card-title" id="viñetas">Formato APA - Viñetas</h2>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="font-weight-bold">Características de las viñetas según APA 7.ª edición:</h5>
+                            <ul>
+                                <li><strong>Formato de viñetas:</strong> Usar viñetas simples (●) o guiones (-) para
+                                    listas no secuenciales.</li>
+                                <li><strong>Interlineado:</strong> Doble espacio entre líneas de las viñetas.</li>
+                                <li><strong>Sangría:</strong> La primera línea de cada viñeta debe estar alineada con el
+                                    margen izquierdo. El texto adicional después de la primera línea debe estar sangrado
+                                    0.5 pulgadas (1.27 cm).</li>
+                                <li><strong>Tamaño de letra:</strong> 12 puntos.</li>
+                                <li><strong>Fuente:</strong> Arial, Times New Roman (Consulte con su asesor para la
+                                    fuente requerida, aunque "Arial" es la más común).</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Tablas -->
+                    <div class="card mb-4">
+                        <div class="card-header bg-success text-white">
+                            <h2 class="card-title" id="tablas">Formato APA - Tablas</h2>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="font-weight-bold">Características de las tablas según APA 7.ª edición:</h5>
+                            <ul>
+                                <li><strong>Numeración de Tablas:</strong> Las tablas deben estar numeradas en orden
+                                    consecutivo (Tabla 1, Tabla 2, etc.).</li>
+                                <li><strong>Titulo de la Tabla:</strong> El título de la tabla debe colocarse en la
+                                    parte superior izquierda y sin punto final</li>
+                                <li><strong>Estructura del Titulo:</strong> El titulo debe de Tener el Numero de tabla,
+                                    El contenido de la tabla, fuente , lugar de donde se saco la misma, y autor entre
+                                    parentesis(Si la tabla es de auditoria propia, se coloca el mensaje de "Elaboración
+                                    propia")</li>
+                                <li><strong>Alineación:</strong> Todo el contenido de la tabla de estar centrado</li>
+                                <li><strong>Estilos:</strong> Evita el uso de bordes y líneas interiores; sólo se usan
+                                    en la parte superior e inferior de la tabla y debajo de los encabezados.</li>
+                                <li><strong>Tamaño de letra:</strong> 12 puntos.</li>
+                                <li><strong>Fuente:</strong> Arial, Times New Roman (Consulte con su asesor para la
+                                    fuente requerida, aunque "Arial" es la más común).</li>
+                            </ul>
+
+                            <!-- Trigger para abrir el modal -->
+                            <div class="d-flex justify-content-end align-items-center mt-4">
+                                <a href="#" class="d-flex align-items-center custom-modal-trigger text-dark"
+                                    data-toggle="modal" data-target="#modalFormatoTabla" style="cursor: pointer;">
+                                    <span class="mr-2">Visualización</span>
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="modalFormatoTabla" tabindex="-1" role="dialog"
+                                aria-labelledby="modalTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitle">Vista previa</h5>
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Cerrar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body text-center">
+                                            <img src="../../Assets/IMG/Documentacion/APA7/TABLA.webp" alt="Vista previa"
+                                                class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Imagenes y Figuras -->
+                    <div class="card mb-4">
+                        <div class="card-header bg-success text-white">
+                            <h2 class="card-title" id="imgFig">Formato APA - Imagenes y Figuras</h2>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="font-weight-bold">Características de las Imagenes y Figuras según APA 7.ª
+                                edición:</h5>
+                            <ul>
+                                <li><strong>Numeración de Images/Figuras:</strong> Las Imagenes o Figuras deben estar
+                                    numeradas en orden
+                                    consecutivo (Imagen 1, Imagen 2, etc.).</li>
+                                <li><strong>Titulo de la Imagen/Figura:</strong> El título de las Imagenes o Figuras
+                                    debe colocarse en la
+                                    parte inferior izquierda y sin punto final</li>
+                                <li><strong>Estructura del Titulo:</strong> El titulo debe de Tener el Numero de Imagen
+                                    o Figura,
+                                    El contenido de la misma, fuente , lugar de donde se saco, y autor entre
+                                    parentesis(Si la Imagen o Figura es de auditoria propia, se coloca el mensaje de
+                                    "Elaboración
+                                    propia")</li>
+                                <li><strong>Alineación:</strong> Las imagenes o figuras en formatos mas formales deben
+                                    de ser de un tamaño no molesto para los lectores y deben de ser centradas</li>
+                                <li><strong>Tamaño de letra:</strong> 12 puntos.</li>
+                                <li><strong>Fuente:</strong> Arial, Times New Roman (Consulte con su asesor para la
+                                    fuente requerida, aunque "Arial" es la más común).</li>
+                            </ul>
+                            <!-- Trigger para abrir el modal -->
+                            <div class="d-flex justify-content-end align-items-center mt-4">
+                                <a href="#" class="d-flex align-items-center custom-modal-trigger text-dark"
+                                    data-toggle="modal" data-target="#modalFormatoImg" style="cursor: pointer;">
+                                    <span class="mr-2">Visualización</span>
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="modalFormatoImg" tabindex="-1" role="dialog"
+                                aria-labelledby="modalTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitle">Vista previa</h5>
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Cerrar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body text-center">
+                                            <img src="../../Assets/IMG/Documentacion/APA7/ImgApa.webp"
+                                                alt="Vista previa" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- REFERENCIAS -->
+                    <div class="card mb-4">
+                        <div class="card-header bg-success text-white">
+                            <h2 class="card-title" id="referencias">Formato APA - Referencias</h2>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="font-weight-bold">Características de las referencias según APA 7.ª edición:</h5>
+                            <ul>
+                                <li><strong>Formato de la lista de referencias:</strong> Alineado a la izquierda con
+                                    sangría francesa de 0.5 pulgadas (1.27 cm).</li>
+                                <li><strong>Orden:</strong> Las referencias deben estar ordenadas alfabéticamente por el
+                                    apellido del primer autor.</li>
+                                <li><strong>Interlineado:</strong> Doble espacio entre las referencias, sin espacio
+                                    adicional entre ellas.</li>
+                                <li><strong>Tamaño de letra:</strong> 12 puntos.</li>
+                                <li><strong>Fuente:</strong> Arial, Times New Roman (Consulte con su asesor para la
+                                    fuente requerida, aunque "Arial" es la más común).</li>
+                                <li><strong>Estructura:</strong> Dependiendo del tipo de cita que se elabore, se ocupa
+                                    un formato diferente, en la vizualiacion se muestra como se debe de citar los
+                                    diferentes tipos de citas seguna la UNAM</li>
+                            </ul>
+
+
+                            <!-- Trigger para abrir el modal -->
+                            <div class="d-flex justify-content-end align-items-center mt-4">
+                                <a href="#" class="d-flex align-items-center custom-modal-trigger text-dark"
+                                    data-toggle="modal" data-target="#modalFormatoRef" style="cursor: pointer;">
+                                    <span class="mr-2">Visualización</span>
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+
+                            
+                            <!-- Modal -->
+                            <div class="modal fade" id="modalFormatoRef" tabindex="-1" role="dialog"
+                                aria-labelledby="modalTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitle">Vista previa</h5>
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Cerrar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!-- Carrusel -->
+                                            <div id="carouselReferencia" class="carousel slide" data-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <img src="../../Assets/IMG/Documentacion/APA7/REFERENCIA1.webp"
+                                                            alt="Vista previa 1" class="d-block w-100 img-fluid">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img src="../../Assets/IMG/Documentacion/APA7/REFERENCIA2.webp"
+                                                            alt="Vista previa 2" class="d-block w-100 img-fluid">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img src="../../Assets/IMG/Documentacion/APA7/REFERENCIA3.jpg"
+                                                            alt="Vista previa 3" class="d-block w-100 img-fluid">
+                                                    </div>
+                                                </div>
+                                                <!-- Controles del carrusel -->
+                                                <a class="carousel-control-prev" href="#carouselReferencia"
+                                                    role="button" data-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="sr-only">Anterior</span>
+                                                </a>
+                                                <a class="carousel-control-next" href="#carouselReferencia"
+                                                    role="button" data-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="sr-only">Siguiente</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                </div>
+
+                <!-- Scripts de Bootstrap -->
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+                <!-- Tooltips -->
+                <script src="../../Scripts/tooltips.js"></script>
+</body>
+
+</html>

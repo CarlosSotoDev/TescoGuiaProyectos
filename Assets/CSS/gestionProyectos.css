@@ -1,0 +1,137 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Fondo blanco general */
+    overflow: hidden;
+}
+
+/* Contenedor principal */
+main.container {
+    background-color: #ffffff !important; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: none !important; /* Sin sombras */
+}
+
+/* Títulos */
+main h2 {
+    font-size: 2rem;
+    color: #28a745;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Columnas */
+.col-md-6 {
+    padding: 15px;
+    border: none !important; /* Sin bordes por defecto */
+}
+
+.col-md-6.border-right {
+    border-right: 2px solid #28a745 !important; /* Solo el borde derecho es visible */
+}
+
+/* Contenedores internos */
+.bg-light {
+    background-color: #ffffff !important; /* Fondo blanco */
+    border: none !important; /* Sin bordes adicionales */
+    box-shadow: none !important; /* Sin sombras */
+    padding: 20px;
+    border-radius: 5px; /* Opcional: Ajuste de bordes redondeados */
+}
+
+/* Botones */
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    box-shadow: none !important; /* Sin sombra */
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+/* Texto */
+p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+p.h2 {
+    font-size: 1.5rem;
+    color: #28a745;
+    margin-bottom: 15px;
+}
+
+p.h4 {
+    font-size: 1.25rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Listado de integrantes */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+ul li {
+    padding: 5px 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Enlaces */
+a {
+    color: #28a745;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1e7e34;
+    text-decoration: underline;
+}
+
+/* Asegurar el centrado perfecto del contenido */
+.d-flex.align-items-center.justify-content-center {
+    min-height: 100vh; /* Ocupa toda la altura de la ventana */
+    margin-top: -50px; /* Ajustar ligeramente hacia arriba */
+}
+
+/* Opcional: Limita el ancho máximo del contenedor */
+.row.align-items-center {
+    max-width: 1200px;
+    margin: 0 auto; /* Centrado horizontal */
+}
+
+/* Tablas si se utilizan */
+.table-responsive {
+    margin-top: 20px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Mensajes */
+.alert {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+
