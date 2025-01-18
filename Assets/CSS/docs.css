@@ -66,13 +66,20 @@ html {
 
 /* Ajustes para pantallas pequeñas */
 @media (max-width: 768px) {
+  .navbar-brand img {
+      width: 80px;
+  }
+
+  #welcome-message {
+      height: auto;
+      padding: 20px;
+  }
+
   .page-dashboard .sidebar {
-    width: 100%;
-    /* Ocupa todo el ancho en pantallas pequeñas */
     position: relative;
-    top: 0;
-    /* Reiniciar la posición en móviles */
+    width: 100%;
     height: auto;
+    top: 0;
   }
 
   .page-dashboard .content {
@@ -80,6 +87,11 @@ html {
     /* Eliminar margen izquierdo */
     width: 100%;
     /* El contenido ocupa todo el ancho */
+    padding: 10px;
+  }
+
+  .sidebar .nav-link {
+    padding: 8px;
   }
 }
 

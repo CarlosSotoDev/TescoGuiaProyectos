@@ -138,3 +138,36 @@ body {
     border-color: #dc3545;
     color: var(--text-color);
 }
+
+/* Media Queries para dispositivos móviles */
+@media (max-width: 768px) {
+    .sidebar {
+        height: auto;
+        padding: 10px;
+    }
+
+    .sidebar ul li a {
+        padding: 8px;
+    }
+
+    .container-content {
+        padding: 10px;
+    }
+
+    .navbar-brand img {
+        width: 80px;
+    }
+
+    .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .table-responsive {
+        margin-top: 10px;
+    }
+
+    .modal-content {
+        padding: 10px;
+    }
+}
