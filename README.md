@@ -3,7 +3,7 @@
 
 Este sistema web fue desarrollado con PHP y permite la gestión de información estructurada, incluyendo funcionalidades de carga de archivos, vistas dinámicas, acceso a base de datos, y manejo de sesiones de usuario. Está diseñado para ejecutarse en servidores locales como XAMPP o LAMP.
 
-> ![DANGER]
+> [!IMPORTANT]
 > Si quieres tener acceso al repositorio, con el proyecto completo, contacta al administrador de este reporsitorio
 
 ---
